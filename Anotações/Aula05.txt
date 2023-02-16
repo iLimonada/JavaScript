@@ -1,0 +1,36 @@
+Q01 - Uma variavel é um espaço na memória do computador destinado a um dado que pode ser alterado durante a execução de um programa.
+Exemplo: A memória é um terreno grande (memoria) onde podemos criar varias vagas (variaveis) que podem conter carros (dados)
+Q02 - Para declarar uma variavel numerica inteira ou real usa-se var numeroInteiro = 10, e var numeroReal = 10.5
+Q03 - Tipos Primitivos são number, string, boolean, null, function, object, undefined, etc.
+Q04 - Colocar o valor null significa que essa variavel vai ficar nula sem nenhum dado.
+
+Variaveis
+Exemplos delas são var nome ou let nome
+var nome = "Gustavo" // criacao de variavel e atribuindo um valor a ela
+nome = "Paulo" // Alterando o valor da variavel que ja existe
+
+Regras das variáveis
+Identificadores: podem começar com letra, $ ou _, 
+Não podem começar com numeros, palavras reservadas e espaços 
+Podem conter numeros, acentos e simbolos
+
+Dicas para variáveis
+Maiusculas e minusculas fazem diferença ex: var a = 10, A = 20
+Usar nomes coerentes como nome da pessoa sendo nome, salario de alguem usar salario, calcular média de media, etc
+Evitar se um "Programador Alfabeto" ou um "Programador Númerico". Não usar nomes como: "a", "b", "c", etc ou "n1", "n2, "n3", etc.
+
+Tipos de Variáveis: Primitivos
+
+Number: 1, 10.5, -3, 2.333; São todos números
+String: "Maria", 'Google', `Macarrao`, "333.333.333-33" (Cadeia de caracteres);
+Boolean: True ou False;
+
+Tipos de dados:
+Number: Infinity ou NaN (Not a Number)
+string
+boolean
+null
+undefined
+object: Array
+function
+Para descobrir o tipo deles usar typeof tipo da variavel

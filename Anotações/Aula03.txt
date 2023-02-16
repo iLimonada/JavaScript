@@ -1,0 +1,10 @@
+Q02 - Não precisamos saber de inglês, o curso mesmo está em português, claro que não temos como fugir de alguns termos.
+Q03 - Aprender Lógica de Programação, Aprender sem usar FrameWork, Fazer projetos próprios básicos quando estiver bem
+Q04 - Instalamos o Google Chrome, NodeJs (server para rodar o javascript fora do navegador), VSCode
+
+
+
+Q01 -Bibliografia
+JavaScript Guia do Programador
+Guia da Mozilla: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+Guia da Ecma : https://www.ecma-international.org/publications-and-standards/standards/ecma-262/

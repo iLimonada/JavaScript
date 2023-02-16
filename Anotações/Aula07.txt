@@ -1,0 +1,65 @@
+Q01 - O operador % serve para saber o resto de uma divisão inteira
+Q02 - 6 + 4 / 2 = 8, pela ordem de precedência
+Q03 - n = 10, n += 5 o n passa a ser 15
+Q04 - Os operadores ++ e -- são de incremento e decremento, eles servem para somar ou subtrair por 1 de uma maneira mais simplificada
+Operadores
+
+Tipos de operadores:
+Aritméticos
+Atribuição
+Relacionais
+Lógico
+Ternário
+________________________________________________________________________
+
+Operadores Aritméticos:
++  // Somar
+-  // Subtrair
+*  // Multiplicar
+/  // Dividir
+%  // Resto da divisão
+** // Potência do primeiro numero elevado pelo segundo
+
+5 + 2 = 7
+5 - 4 = 1
+5 * 3 = 15
+5 / 2 = 2,5
+15 % 2 = 1
+4 ** 2 = 16
+________________________________________________________________________________________
+
+Precedência de operadores ↓
+()
+**
+/ * %
++ -
+
+Exemplo: 5 + 3 / 2 = 6.5, se for para obter 4 usa-se (): (5 + 3) / 2 = 4
+_____________________________________________________________________________
+
+Atribuição simples
+
+var a = 5 + 3         // 8
+var b = a % 5         // 3
+var c = 5 * b ** 2    // 45
+var d = 10 - a / 2    // 6
+var e = 6 * 2 / d     // 2
+var f = b % e + 4 / e // 3	
+_________________________________________________________________________________
+
+Auto-atribuições	Simplicada
+
+var n = 3  // 3		
+n = n + 4  // 7		n += 4
+n = n - 5  // 2		n -= 5 
+n = n * 4  // 8		n *= 4
+n = n / 2  // 4		n /= 2
+n = n ** 2 // 16	n **= 2
+n = n % 5  // 1		n %= 5
+__________________________________________________________________________________
+
+Incremento		Simplificando		Operador Incrmento
+
+var x = 5  // 5		x += 1			x++
+x = x + 1  // 6		x -= 1			x--
+x = x - 1  // 5					++x ou --x

@@ -1,0 +1,73 @@
+Q01 - Significa Document Object Model é um conjunto de objetos dentro do navegador que vai dar acesso aos componentes internos do nosso site
+Q02 - 
+                       window
+             |           |            |
+            location - document - history
+
+                         |
+                        html
+                       |    |
+                     head - body 
+               |      |        |     |
+            title - meta       h1 -  p 
+                                     |
+                                  strong
+Q03 - A árvore DOM segue uma hierarquia onde quem está em cima é Parent e quem está em baixo é Child. 
+(ex: html é parent de head e body sendo que head e body são parents de meta, title, h1 e p)
+Q04 - Por classe (getElementsByClassName), por Nome (getElementByName), por ID (getElementById), por marca (getElementByTagName), por seletor (queryselector)
+___________________________________________________________________________________
+
+O que é DOM?
+
+Significa Document Object Model é um conjunto de objetos dentro do navegador que vai dar acesso aos componentes
+internos do nosso site
+
+___________________________________________________________________________________
+
+Árvore DOM
+
+Começamos pela window dentro dele temos: location (localização, url, pag anterior), document e history para facilitar navegação do site
+dentro do document temos o html, e dentro do html temos: head e body, dentro de head temos: meta e title, e dentro de body temos: h1, p, p e div
+e dentro do segundo p temos um strong (a imagem representa melhor), tudo que está na árvore é um elemento.
+__________________________________________________________________________________
+
+Comandos do windows
+
+window.document.URL = Mostra URL do site atual
+               .charset = mostra UTF-8
+	       .navigator.appName = mostra o navegador (NetScape no caso)
+__________________________________________________________________________________
+
+Selecionando os elementos da árvore DOM
+
+Podemos selecionar por:
+Marca
+ID
+Nome
+Classe
+Seletor
+___________________________________________________________________________________________
+
+Exemplos de elementos:
+
+Marca/TagName = getElementsByTagName(), pode acabar selecionando mais de uma tag
+var p1 = window.document.getElementsByTagName("p")[0] 
+window.document.write(p1.innerText) // innerText = Texto que está dentro do parágrafo sem formatação 
+window.document.write(p1.innerHTML) // innerHTML = Pega o HTML inteiro inclusive as tags filhas
+
+ID = getElementById()
+Nome = getElementsByName()
+Classe = getElementsByClassName()
+
+Seletor (mais recomendavel) = querySelector()/querySelectorAll()
+var d = window.document.querySelector('div#msg') // Id são representadas por #
+var d = window.document.querySelector('div.msg') // Class são representadas por .
+d.style.color = "blue"
+
+Conceito do video 1 = window.document.body.style.background = 'black' // Mudou o fundo do google para a cor preta
+document.querySelector('img.lnXdpd').style.filter = 'yellowscale(100%)' // Mudou o logo para amarelo
+document.querySelector('img.lnXdpd').style.visibility = 'hidden' // Escondeu o logo
+
+______________________________________________________________________________________________
+
+

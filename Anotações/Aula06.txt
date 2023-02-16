@@ -1,0 +1,65 @@
+Q01 - Para guardar o valor do prompt usamos uma variavel para receber e armazenar esse valor. Ex: var num1 = window.prompt(n)
+Q02 - Para fazer com que o numero digitado no prompt faça calculos usamos um comando chamado number, number.parseInt ou Number.parseFloat e assim ele faz a conversao para o tipo requerido
+Exemplo: var numero1 = Number.parseInt(window.prompt("Digite um numero: ")
+Q03 - Para transformar um texto todo para letras maiusculas usamos var.toUpperCase()
+Exemplo: var nome, então usamos o comando para digitar na tela, document.write(`${nome.toUpperCase()}`)
+Q04 - Para fazer um produto/salario no valor monetário de uma moeda basta escrever
+Exemplo: var numero, e então numero.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+<script>	
+window.alert       		// este comando emite uma mensagem!
+window.confirm                  // este comando faz uma pergunta de confirmação
+window.prompt                   // este comando faz um pergunta de resposta!')
+</script> 
+___________________________________________________________________________________________________________________________________________________________
+Armazenando variaveis
+Quando queremos armazenar usamos var nome = "algo", então quando queremos armazenar uma variavel do prompt usamos:
+var nome = windows.prompt("Qual o seu nome?") // Armazenando a resposta da pergunta
+window.alert("É um grande prazer te conhecer, " + nome + "!") // Concatenacao usando o sinal de +
+___________________________________________________________________________________________________________________________________________________________
+Conversao de variaveis
+
+Convertendo para o tipo Int:
+Number.parseInt(conteudo), Ex: var numero1 = Number.parseInt(window.prompt("Digite um numero: ")  // Retorna uma string que converte para numero inteiro
+
+Convertendo para Float:
+Number.parseFloat(conteudo), Ex: var numero1 = Number.parseFloat(window.prompt("Digite um numero: ")  // Retorna uma string que converte para numero real
+
+Convertendo para Number: 
+var numero1 = Number (window.prompt ('digite aqui um numero!’))
+
+Mas qual é a diferença entra "Number.parseInt", "Number.parseFloat" e Number?
+
+// Number.parseInt: Numero Inteiro
+// Number.parseFloat: Numero com virgula
+// Number: Js vai decidir qual é
+______________________________________________________________________________________________________________________________________________________________
+
+Convertendo para string
+
+Há 2 maneiras
+window.alert('a soma dos numeros é: ' + soma.toString()) // Maneira antiga
+window.alert('a soma dos numeros é: ' + String(soma)) // Maneira simples e atual
+_____________________________________________________________________________________________________________________________________________________________
+
+Formatando string
+
+var js = "JavaScript"
+"Estou aprendendo " + js // Exemplo de concatenacao
+`Estou aprendendo ${js}` // Exemplo de template string (nao esquecer que usa-se crase)
+js.length 		 // Conta quantos caracteres tem na variável
+js.toUpperCase 		 // Deixa tudo em caixa alta
+js.toLowerCase		 // Deixa tudo em minusculo
+document.write() 	 // Escreve na tela
+_____________________________________________________________________________________________________________________________________________________________
+
+Formatando números:
+
+var = n1			
+n1.toFixed(2)			// Coloca em duas casas decimais (para colocar em mais ou menos casas troque o numero entre parênteses)
+n1.toFixed(2).replace(".", ",") // Troca ponto por virgula
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // Coloca R$ na frente do numero
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) // Para Dolar
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) // Para Euro
+
+

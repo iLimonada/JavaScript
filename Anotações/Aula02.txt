@@ -1,0 +1,32 @@
+Aula 02
+
+Evolução do JS
+
+1970 - Primórdios da Internet - Darpa (Agencia de pesquisa tecnologica) criou = Arpanet (proteger dados entre bases) = Internet
+1993 - TBL = HTML, HTTP (TCP/IP), Cern, WWW, Navegador Mosaic
+1994 - Silicon Graphics = navegador NetScape (Motzilla)
+1995 - Brandon Eich (Netscape) = Mocha virou JavaScript | Sun MycroSystem Java | Microsoft IE, JScript
+1997 - Padronizar JS = Ecma, EcmaScript
+2002 - Netscape x IE | W98 | Netscape = Mozilla
+2008 - Google Chrome
+2009 - GC - motor v8
+2010 - Node JS (roda JS fora do nav)
+
+Evolução EcmaScript
+1997 - 1.0
+1998 - 2.0
+1999 - 3.0 (try/catch)
+2009 - ES5 | JSON
+2015 - ES6 | Template, Let, const, string
+2016 - ES2016 - Operador exponenciacao
+2017 - ES2017 - Funcoes assincronas
+2018 - ES2018 - RegEx, Promises
+
+Tecnologias
+Frameworks - JQuery | 2009 - Angular | React/React Native
+2014 - Vue  | Electron (github) interface grafica | VSCode
+Ionic SDK para mobile usando node.js | Cordova
+
+Gaming
+Phaser | PixiJs | Impact | MelonJs | CraftyJs
+

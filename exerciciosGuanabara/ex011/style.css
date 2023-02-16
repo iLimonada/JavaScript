@@ -1,0 +1,13 @@
+body {
+    font: 12pt Trebuchet MS;
+    
+}
+    
+button {
+    font: normal 16pt Arial;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: orange;
+    background: rgb(162,120,100);
+    background: linear-gradient(0deg, rgba(162,120,100,1) 0%, rgba(255,149,25,1) 100%, rgba(0,212,255,1) 100%);
+}

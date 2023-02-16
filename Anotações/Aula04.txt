@@ -1,0 +1,5 @@
+Q01 - Organizar pastas no VsCode
+Q02 - Node instalado corretamente, o NodeJS serve para usar javascript fora do navegador
+Q03 - O Html seria a parte do conteúdo onde fica o head e body, o CSS seria a parte do estilo onde usamos a tag style
+e o JS usamos a tag script para dar interatividade
+Q04 - Para dar alertas se usa window.alert(" "), para confirmar: windows.confirm(" "), e para perguntas: window.prompt(" ").

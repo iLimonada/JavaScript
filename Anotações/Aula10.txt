@@ -1,0 +1,10 @@
+Q01 - 
+Q02 - 
+Q03 - 
+Q04 - 
+________________________________________________________________________________________
+
+DOM - Document Object Model é um facilitador que existe no navegador dentro do HTML5 para dar acesso aos elementos diretamente pro JS
+sem o DOM teriamos muita dificuldade para poder acessar os elementos da nossa página
+
+Eventos DOM

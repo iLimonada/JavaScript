@@ -1,0 +1,19 @@
+Diferença entre cliente x servidor
+Celulares e PC's são clientes, pois estão pegando dados dos servidores, exemplo Google, Youtube, etc
+E como acessamos o servidor? Usamos um navegador como o Google Chrome, usando uma URL. 
+Então é acessado a infraestrutura da internet que vai para um servidor que é parecido com nossa maquina.
+Então solicitamos nosso HTML fazendo uma copia para nós (cliente) no nosso navegador que gera o site
+ 
+Pra que server HTML, CSS, JavaScript?
+Usamos um exemplo de Jornal
+O Html (conteúdo) ele é como uma jornalista que é responsável pelo texto da matéria, procurar imagens para a reportagem, ou vídeos
+O CSS (estilo) é o design onde você pega todo conteúdo do HTMl e deixa a aparência dele mais agradável 
+O JavaScript (interação) é o responsável pela engenharia como: onde precisa ser entregue mais, quais as configurações, a integração 
+entre a empresa que fabrica e a que entrega, a segurança, e etc.
+
+4 Sites que usam JavaScript
+Youtube, Google, Gmail e Netflix
+
+
+
+

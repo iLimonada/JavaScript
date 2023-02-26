@@ -1,7 +1,27 @@
-Q01 - 
-Q02 - 
-Q03 - 
-Q04 - 
+Q01 - Os três eventos DOM são: onmouseout = quando tira o mouse de algo, onmouseover() = quando deixa o mouse sobre algo e onclick() = ao clicar em algo
+Q02 - Uma função é um conjunto de códigos que só são utilizados ao serem chamados pelo programa seguindo alguns requisitos
+EX: onclick() estive utilizando ele quando dentro da minha função eu apertasse um botão acontecesse algo: function botao() { codigo }
+Q03 - NO HTML:
+
+  <input type='number' id='n1' name='n1'>
+  <span>+</span> 
+  <input type='number' id='n2' name='n2'>
+  <input type='button' value='Somar' onclick='mostraSoma()'>
+  <p id='resultado'></p>
+
+NO JAVASCRIPT:
+
+  function mostraSoma() { 
+    let junta1 = document.querySelector ('#n1')
+    let junta2 = document.querySelector ('#n2')
+    let exibeSoma = document.querySelector ('#resultado')
+    let soma1 = Number(junta1.value)
+    let soma2 = Number(junta2.value)
+    let totalSoma = soma1 + soma2
+
+    exibeSoma.inneHTML = totalSoma
+    }
+
 ________________________________________________________________________________________
 
 DOM - Document Object Model é um facilitador que existe no navegador dentro do HTML5 para dar acesso aos elementos diretamente pro JS
